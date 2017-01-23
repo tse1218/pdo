@@ -4,7 +4,7 @@ function conn()
 {
 	$root		= "";
 	$root_pwd	= "";
-	$db			= "";
+	$db		= "";
 	
 	$dsn_db='mysql:host=localhost;dbname='.$db.';charset=utf8';
 	$options = array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',);
